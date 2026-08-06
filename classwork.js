@@ -1,1 +1,2 @@
-const fullName = "ADEBAYO BIDEMI USMAN "
+const fullName = "ADEBAYO BIDEMI USMAN"
+console.log(fullName)

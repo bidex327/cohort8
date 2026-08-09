@@ -38,4 +38,13 @@ let hisRole = employee.role
 let hisSalary = employee.salary
 let hisCity = employee.city
 
-const {name, role, salary, city}= employee;
+const {name: fullName, role: title, salary, city}= employee;
+
+
+let profile = {name: "Seun", age: 30};
+let updatedProfile = {
+    ...profile,
+    city: "Lagos"
+}
+console.log(updatedProfile);
+
